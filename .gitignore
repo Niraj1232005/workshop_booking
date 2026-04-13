@@ -1,47 +1,34 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-.Python
 *.log
-develop-eggs/
-eggs/
-.eggs/
-lib/
-*.egg-info/
-.installed.cfg
-*.egg
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Django stuff:
-*.log
+# Django
+db.sqlite3
 local_settings.py
 
-# PyBuilder
-target/
+# Virtual Environment
+venv/
+env/
+ENV/
 
-#Database
-db.sqlite3
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-#MAC OS specific
+# React build
+frontend/build/
+
+# OS
 .DS_Store
 
-#Pycharm
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workshop_portal.iml
-.idea/workspace.xml
-.idea/vcs.xml
+# IDE
+.idea/
+.vscode/
 
-#Emacs
-\#*#
-#Vim
+# Misc
 *.swp
-
-#images/gif
-*.png
-*.gif
+*.swo
