@@ -43,5 +43,3 @@ Notes
 - The frontend is a UI shell — all validation, redirects and data handling happen on the server.
 - The Django routes of interest include `/workshop/propose/`, `/workshop/status`, and `/workshop/logout/`.
 - See `docs/Getting_Started.md` for additional setup details.
-
-If you'd like screenshots added or a deployment section, tell me how you'd like the README extended and I will update it.
